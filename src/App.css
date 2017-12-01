@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  background-color: #1d1e6b;
+  
 }
 
 
@@ -138,13 +140,20 @@
 }
 
 .link:hover {
-  border-bottom: 5px solid #02d0df;
+  border-bottom: 5px solid #1d1e6b;
 }
 
 .section2 {
   height: 100vh;
   width: 100vw;
   background-color: #1d1e6b;
+}
+
+.aboutMe {
+  color: white;
+  font-size: 5vw;
+  text-align: left;
+  width: 90%;
 }
 
 .skillsContainer {
@@ -156,6 +165,27 @@
   margin-top: 20px;
 }
 
+
+
+.sectionContainerSkills {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.halfC {
+  -webkit-clip-path: ellipse(50% 100% at 50% 100%);
+  clip-path: ellipse(50% 100% at 50% 100%);
+    width: 100vw;
+  height: 100px;
+  background-color: white;
+  font-size: 5vw;
+  padding-top: 5vh;  
+}
 .iconContainer {
   height: 120px;
   margin: auto 100px;
@@ -164,6 +194,7 @@
 .section3 {
   height: 100vh;
   width: 100vw;
+  background-color: white;
 }
 
 .section4 {

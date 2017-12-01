@@ -41,12 +41,14 @@ class App extends Component {
         </div>
         <div ref={(section) => { this.section2 = section; }} className="section2">
           <div className="sectionContainer">
-            <span className="sectionHeading">me.</span>
+            <span className="sectionHeading">Hi. I’m Travis.</span>
+            <span className="aboutMe">I’m a web developer and designer from Utah. I focus on building quality web applications that solve real problems for real people. I love being able to write code and see my designs come to life. Most importantly though, I love my wife and baby girl. Cause they’re both really cute. </span>
           </div>
         </div>
+        <div className="halfC">Skills</div>
         <div ref={(section) => { this.section3 = section; }} className="section3">
-        <div className="sectionContainer">
-            <span className="sectionHeading">Skills</span>
+        <div className="sectionContainerSkills">
+            {/* <span className="sectionHeading">Skills</span> */}
             <div className="skillsContainer">
               <img src={html} className="iconContainer"/>
               <img src={css3} className="iconContainer"/>
