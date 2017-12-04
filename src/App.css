@@ -309,14 +309,14 @@
 }
 
 .projImage {
-  width: 90%;
+  width: 75%;
   border-radius: 10px;
   margin-top: 5vh;
   transition: .84s;
 }
 
 .projImage:hover {
-  width: 94%;
+  width: 79%;
 }
 
 .project {
