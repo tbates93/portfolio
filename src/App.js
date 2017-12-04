@@ -50,7 +50,7 @@ class App extends Component {
           <div className="sectionContainer">
             <span className="sectionHeading">Hi. I’m Travis.</span>
             <ScrollAnimation animateIn="fadeIn" offset={300} animateOnce={true}>
-              <span className="aboutMe">I’m a web developer and designer from Utah.<br/> I focus on building quality web applications that solve real problems for real people. I love being able to write code and see my designs come to life. Most importantly though, I love my wife and baby girl.</span>
+              <span className="aboutMe">I’m a web developer and designer from Utah.<br/> I focus on building quality web applications that solve real problems for real people. I love being able to write code and see my designs come to life. I also love my wife and baby girl.</span>
             </ScrollAnimation>
             <span onClick={() => scrollToComponent(this.section3, { offset: -200, align: 'top', duration: 800 })} className="bounce2">&#x2193;</span>
 
