@@ -338,7 +338,7 @@ a {
 
 .projectLink {
   color: #251010;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .contactIcons {
