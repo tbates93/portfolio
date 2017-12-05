@@ -19,8 +19,15 @@ import postgres from "./assets/postgresql-plain.svg"
 import reactlogo from "./assets/react-original.svg"
 import sasslogo from "./assets/sass-original.svg"
 
+import linkedin from "./assets/linkedin-plain.svg"
+import twitter from "./assets/twitter-original.svg"
+import github from "./assets/github-original.svg"
+import email from "./assets/close-envelope.svg"
+
 import laserImage from "./assets/Screen Shot 2017-12-03 at 3.31.26 PM.jpg"
 import toDue from "./assets/Screen Shot 2017-12-03 at 8.25.53 PM.jpg"
+
+
 class App extends Component {
   render() {
     return (
@@ -61,43 +68,43 @@ class App extends Component {
           <div className="sectionContainerSkills">
             {/* <span className="sectionHeading">Skills</span> */}
             <div className="skillsContainer">
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={html} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={css3} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={jscript} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={nodejs} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={postgres} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={reactlogo} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={sasslogo} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={git} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={indes} className="iconContainer" />
               </ScrollAnimation>
 
-              <ScrollAnimation  offset={300} animateIn="fadeIn">
+              <ScrollAnimation  offset={300} animateOut="flipOutX" animateIn="flipInX">
                 <img src={illust} className="iconContainer" />
               </ScrollAnimation>
 
@@ -111,12 +118,22 @@ class App extends Component {
               <div className="project">
                 <a href="http://laser.travisbates.win"><img className="projImage" src={laserImage}/></a>
                 <span className="projectTitle">Laser Express App</span>
-                <a href="http://laser.travisbates.win">laser.travisbates.win</a>
+                <a className="projectLink"  href="http://laser.travisbates.win">laser.travisbates.win</a>
+                <span>- Full stack web app that allows tracking and dispatching service requests called in/submitted, that I built in 2 weeks.</span>
+                <span>- React/SASS on the front end and Node.js with PostgreSQL and massive for the backend.</span>
+                <span>- D3 used to render line charts based on the numbers of recent calls.</span>
+                <span>- Was voted “Best Solution for a Business” out of 24 projects at DevMountain, and is currently being used by Laser Express.</span>
+                
               </div>
               <div className="project">
                 <a href="http://todue.date"><img className="projImage" src={toDue}/></a>
                 <span className="projectTitle">Due.</span>
-                <a href="http://todue.date">todue.date</a>
+                <a className="projectLink" href="http://todue.date">todue.date</a>
+                <span>- Shared calendar application for tracking college assignments, due dates, and completed assignments.</span>
+                <span>- Uses an asynchronous fetch to retrieve a list of all schools in the US that can be selected and added to a user’s profile.</span>
+                <span>- Shows current classes at a school, which users can subscribe to while having individual to-do items for assignments.</span>
+                <span>- Chart.js used to show insights into classes, such as the number of individuals in a class who have completed an assignment.</span>
+                
               </div>
              
             </div>
@@ -126,6 +143,13 @@ class App extends Component {
         <div ref={(section) => { this.section5 = section; }} className="section5">
           <div className="sectionContainer">
             <span className="sectionHeading">Contact</span>
+            <div className="contactIcons">
+              <a href="https://twitter.com/travbates"><img className="contactIcon" src={twitter}/></a>
+              <a href="https://www.linkedin.com/in/travis-d-bates/"><img className="contactIcon" src={linkedin}/></a>
+              <a href="https://github.com/tbates93/"><img className="contactIcon" src={github}/></a>
+              <a href="mailto:travbates93@gmail.com?subject=Contact Travis Bates"><img className="contactIcon" src={email}/></a>
+
+            </div>
           </div>
         </div>
       </div>

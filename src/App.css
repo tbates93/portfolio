@@ -204,7 +204,7 @@
   cursor: pointer;
   transition: .84s;
   border-bottom: 5px solid #000000;
-  
+  font-size: 1.27em;
 }
 
 .link:hover {
@@ -328,8 +328,33 @@
 
 .projectTitle {
   font-size: 3em;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
   border-bottom: solid 1px #DAEFEF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.projectLink {
+  color: #251010;
+  text-decoration: none;
+}
+
+.contactIcons {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactIcon {
+  width: 15vw;
+  transition: .64s;
+}
+.contactIcon:hover {
+  width: 16vw;
 }
 
 @media screen and (max-width: 750px) {
@@ -371,5 +396,16 @@
     text-align: left;
     width: 90%;
   }
+  .contactIcons {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
   
+  .contactIcon {
+    width: 30vw;
+  }
 }
