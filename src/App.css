@@ -408,4 +408,13 @@ a {
   .contactIcon {
     width: 30vw;
   }
+  .sectionHeadingProj {
+    font-size: 5vw;
+    color: #251010;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    
+  }
+  
 }
