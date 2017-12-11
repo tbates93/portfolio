@@ -122,7 +122,7 @@ class App extends Component {
                 <span>- Full stack web app that allows tracking and dispatching service requests called in/submitted, that I built in 2 weeks.</span>
                 <span>- React/SASS on the front end and Node.js with PostgreSQL and massive for the backend.</span>
                 <span>- D3 used to render line charts based on the numbers of recent calls.</span>
-                <span>- Was voted “Best Solution for a Business” out of 24 projects at DevMountain, and is currently being used by Laser Express.</span>
+                <span  style={{marginBottom: '2vh'}}>- Was voted “Best Solution for a Business” out of 24 projects at DevMountain, and is currently being used by Laser Express.</span>
                 
               </div>
               <div className="project">
@@ -132,7 +132,7 @@ class App extends Component {
                 <span>- Shared calendar application for tracking college assignments, due dates, and completed assignments.</span>
                 <span>- Uses an asynchronous fetch to retrieve a list of all schools in the US that can be selected and added to a user’s profile.</span>
                 <span>- Shows current classes at a school, which users can subscribe to while having individual to-do items for assignments.</span>
-                <span>- Chart.js used to show insights into classes, such as the number of individuals in a class who have completed an assignment.</span>
+                <span style={{marginBottom: '2vh'}}>- Chart.js used to show insights into classes, such as the number of individuals in a class who have completed an assignment.</span>
                 
               </div>
              
