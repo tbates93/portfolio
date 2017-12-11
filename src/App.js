@@ -25,7 +25,7 @@ import github from "./assets/github-original.svg"
 import email from "./assets/close-envelope.svg"
 
 import laserImage from "./assets/Screen Shot 2017-12-03 at 3.31.26 PM.jpg"
-import toDue from "./assets/Screen Shot 2017-12-03 at 8.25.53 PM.jpg"
+import toDue from "./assets/due example.gif"
 
 
 class App extends Component {
